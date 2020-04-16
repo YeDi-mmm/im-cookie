@@ -1,12 +1,12 @@
 {
   "name": "im-cookie",
-  "version": "2.0.1",
+  "version": "2.0.5",
   "description": "",
   "main": "cookie.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["cookie"],
   "author": "ziye_m",
   "license": "ISC"
 }
