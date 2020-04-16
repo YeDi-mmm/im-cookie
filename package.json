@@ -1,0 +1,12 @@
+{
+  "name": "im-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cookie.js", 
+  "scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ziye_m",
+  "license": "ISC"
+}
