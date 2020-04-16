@@ -22,7 +22,6 @@ let Cookie = {
         this.setItem(key, "", -1);
     },
     getKeys() {
-
         var arr = document.cookie.split("; ");
         var keys = [];
         for (let i = 0; i < arr.length; i++) {
