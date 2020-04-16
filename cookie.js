@@ -1,4 +1,4 @@
-let Cookie = {
+let imcookie = {
     getItem(key) {
         var arr = document.cookie.split("; ");
         for (let i = 0; i < arr.length; i++) {
@@ -38,4 +38,4 @@ let Cookie = {
     }
 }
 
-export default Cookie
+export default imcookie
