@@ -20,7 +20,7 @@ function setCookie(key, value, day) {
 }
 
 function removeCookie(key) {
-    this.setItem(key, "", -1);
+    this.setCookie(key, "", -1);
 }
 
 function getKeysCookie() {
@@ -37,7 +37,7 @@ function getKeysCookie() {
 function clearCookie() {
     var keys = this.getKeys();
     keys.forEach(element => {
-        this.setItem(element, "", -1);
+        this.setCookie(element, "", -1);
     });
 }
 
