@@ -20,11 +20,10 @@ function setCookie(key, value, day) {
 }
 
 function removeCookie(key) {
-    this.setCookie(key, "", -1);
+    setCookie(key, "", -1);
 }
 
 function getKeysCookie() {
-
     var arr = document.cookie.split("; ");
     var keys = [];
     for (let i = 0; i < arr.length; i++) {
@@ -35,9 +34,9 @@ function getKeysCookie() {
 }
 
 function clearCookie() {
-    var keys = this.getKeys();
+    var keys = getKeysCookie();
     keys.forEach(element => {
-        this.setCookie(element, "", -1);
+        setCookie(element, "", -1);
     });
 }
 
