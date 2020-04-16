@@ -5,37 +5,37 @@ npm install imcookie
 ```
 ## 页面引入imcookie
 ```
-首先在需要的页面 import imcookie from "imcookie" 引入操作;
+页面引入操作 import {getCookie} from "imcookie" ;
 ```
 # api方法使用
  ### 参数
 ```
 设置cookie,参数：key（名称）必填项*，value（值）必填项*
 
-imcookie.setItem("key",value);
+setCookie("key",value);
 ```
 ```
 获取cookie,参数：key（名称）必填项*
 
-imcookie.getItem("key");
+getCookie("key");
 ```
 ```
-删除cookie,参数：key（名称）必填项*
+删除某个cookie,参数：key（名称）必填项*
 
-imcookie.removeItem("key");
+removeCookie("key");
 ```
 ```
 获取所有cookie的key,参数：无
 
-imcookie.getKeys();
+getKeysCookie();
 ```
 ```
 清空所有cookie,参数：无
 
-imcookie.clear();
+clearCookie();
 ```
 ## 使用实例
 ```
-imcookie.setItem("key","我是cookie的值")
+setCookie("key","我是cookie的值")
 
 ```
